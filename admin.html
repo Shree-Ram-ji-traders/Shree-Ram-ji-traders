@@ -10,9 +10,8 @@
 
 <body>
     <script>
-const ADMIN_PASSWORD= "ShreeRam123";
-
-if (password !== ADMIN_PASSWORD) {
+const password = prompt("Enter Admin Password:");
+if (password !== "ShreeRam123") {
     alert("Wrong Password!");
     window.location.href = "index.html";
 }
