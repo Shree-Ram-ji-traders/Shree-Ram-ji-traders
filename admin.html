@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel | Shree Ram Ji Traders</title>
+
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+    <div id="loginPage" style="display:none;"></div>
+
+        <h1>Admin Login</h1>
+
+        <input type="password" id="password" placeholder="Enter Password">
+
+        <button id="loginBtn">Login</button>
+
+    </div>
+
+        <div id="adminPanel">
+        <h1>Shree Ram Ji Traders Admin Panel</h1>
+
+        <button id="logoutBtn">Logout</button>
+
+        <hr>
+
+        <input type="file" id="image">
+
+        <input type="text" id="productName" placeholder="Product Name">
+
+        <input type="text" id="meeshoLink" placeholder="Meesho  product Link">
+        <button id="uploadBtn">Add Product</button>
+<div id="message"></div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="admin2.js"></script>
+
+</body>
+</html>
